@@ -4,7 +4,15 @@
 	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
 	<persistence-unit name="bank_MySQL" transaction-type="RESOURCE_LOCAL">
 
-
+		<class>model.Adresse</class>
+		<class>model.Bausparvertrag</class>
+		<class>model.Besuch</class>
+		<class>model.FirmenKunde</class>
+		<class>model.Kredit</class>
+		<class>model.Kunde</class>
+		<class>model.PrivatKunde</class>
+		<class>model.Produkt</class>
+		<class>model.Sparbuch</class>
 
 		<properties>
 			<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://172.16.10.20:3306/Bank" />
